@@ -1,0 +1,104 @@
+body {
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    margin: 20px auto;
+    width: 1024px;
+    line-height: 1.5;
+    box-shadow: 10px 1px 60px -2px rgb(0 0 0 / 30%);
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.columns {
+    display: flex;
+}
+.left-column {
+    width: 39%;
+    color: white;
+    background: #7C73B4;
+}
+.main-info {
+    margin: 20px 40px 20px 15px;
+}
+
+.main-images img {
+    border-radius: 61%;
+    border: 2px solid gainsboro;
+    margin-top: 30px;
+}
+
+.main-images {
+    text-align: center;
+}
+
+.main-images h3 {
+    font-style: italic;
+    font-family: 'Licorice', cursive;
+    font-size: 34px;
+    line-height: 10%;
+}
+.right-column {
+    width: 65%;
+    padding: 30px;
+    background: #F8F6F6;
+    color: #393131;
+}
+.description {
+    padding: 5px 20px;
+    background: #F8F6F6;
+}
+
+blockquote {
+    border-left: 1px solid #c3c3c3;
+    padding-left: 15px;
+    font-style: italic
+}
+
+.myself {
+    padding: 10px;
+}
+.myself h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c3c3c3;
+}
+.experince h3 {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 10px;
+}
+.story-of-my-life {
+    display: inline-block;
+}
+.story-of-my-life p {
+    line-height: 50%;
+}
+
+.courses h3 {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 10px;
+}
+footer {
+    padding: 30px;
+    background: #9491b8;
+    display: flex;
+    justify-content: space-between;;
+}
+
+.github {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.github p {
+    margin-left: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.courses ul {
+    list-style-type: circle;
+}
+.courses p {
+    text-decoration: line-through;
+}
