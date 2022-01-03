@@ -28,4 +28,4 @@ function spEng(sentence){
 * Kyrgyz - Basic
 
 
-
+nya
